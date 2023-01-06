@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="D[ubS{EarH!lhxyF)9r1">ido</variable></variables><block type="pxt-on-start" id=".)]#`4^IC_gvI}(Fd+Im" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="L/_no$#O2^a_ThQD_?ar"><field name="VAR" id="D[ubS{EarH!lhxyF)9r1">ido</field><value name="VALUE"><shadow type="math_number" id="1}979PCg._.%}*vuYX{%"><field name="NUM">10</field></shadow></value><next><block type="device_while" id="%gTas89DG~nds8TkzQf("><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="mI9N1a2e!5cDu^*ZpF5h"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="[(vrz8R,RB(L9Ye.GY#m"><field name="VAR" id="D[ubS{EarH!lhxyF)9r1">ido</field></block></value><value name="B"><shadow type="math_number" id="BMRP=}Pe_,@QL`dLU;Q("><field name="NUM">10</field></shadow></value></block></value><statement name="DO"><block type="device_show_leds" id="WY*^REjltdOxr~1Vw?Uq"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_pause" id="XQ2sZ@1}b=FTGiH7dUno"><value name="pause"><shadow type="timePicker" id="It3J:PXtJjlFn)tG6eEw"><field name="ms">8000</field></shadow></value><next><block type="device_clear_display" id="RkgzpQ0*bd@tV5pd_fOe"><next><block type="device_show_leds" id="LXqy^xdw/;+x$0@`ug3?"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_pause" id="7Xd@382,t(pfqCpo+t+%"><value name="pause"><shadow type="timePicker" id="Ju2rK0jnXMQ`4u~eElPM"><field name="ms">6000</field></shadow></value><next><block type="device_clear_display" id="5wv]5?+/[4JROIEj1ja*"><next><block type="controls_repeat_ext" id="6Yxh+*DKg#lu*jJwb{Io"><value name="TIMES"><shadow type="math_whole_number" id="fm[3;~yEg13|OWLFdQtt"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="device_pause" id="D:j|!ty)P6mxV]rpVIH2"><value name="pause"><shadow type="timePicker" id="a/U9+Jt[z!g%Aq$6oYS5"><field name="ms">200</field></shadow></value><next><block type="device_show_leds" id="Oo(x)P8Poro8tnq1.+dy"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_clear_display" id="_J|0913#}Hq_Tb/-U(s$"></block></next></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></statement></block><block type="device_forever" id="?2B,p-t_ZD5xp1C0%d/P" x="1012" y="154"></block><block type="device_button_event" id="Umg4cNxA_$+(Yy])7.UE" x="485" y="348"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="%fX$CGl,XqNy3n;{B#0,"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_pause" id="*a*U7gD_O53w8+YK{|8A"><value name="pause"><shadow type="timePicker" id="C*Py_AUD)1.B4F8c7l?g"><field name="ms">6000</field></shadow></value><next><block type="device_clear_display" id=",urL{gs6?yDaJ;:pl5lf"><next><block type="controls_repeat_ext" id="R#pZ`Y9G=+Yr-c_Bvb5,"><value name="TIMES"><shadow type="math_whole_number" id="Q=dC:Oqz65J=]a#dm@[*"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="device_pause" id="@C7/-oxMl=QHy0ZToCr?"><value name="pause"><shadow type="timePicker" id="nlsPV8nj(VBXgCeB1Ij;"><field name="ms">200</field></shadow></value><next><block type="device_show_leds" id="T?%?i`rq$AhCW]wGbQ,;"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_clear_display" id=":aCpJNldBLEz=3.n~f{D"></block></next></block></next></block></statement><next><block type="control_reset" id="0hB]TvcIl2Z(j*wPr9L{"></block></next></block></next></block></next></block></next></block></statement></block></xml>
